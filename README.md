@@ -1,0 +1,1 @@
+# thisisaboutthe30thtimeivetriedtocompletelearnpythonthehardway
