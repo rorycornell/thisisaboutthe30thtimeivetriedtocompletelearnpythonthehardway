@@ -4,6 +4,8 @@ script, filename = argv
 
 txt = open(filename)
 
+print "please make sure you make the file /etc/passwd"
+
 print "Here's your file %r:" % filename
 print txt.read()
 
