@@ -10,7 +10,7 @@ print "Here's your file %r:" % filename
 print txt.read()
 
 print "Type the filename again:"
-file_again = txt
+file_again = filename
 
 txt_again = open(file_again)
 
