@@ -14,6 +14,16 @@ lives = raw_input(prompt)
 print "What kind of computer do you have?"
 computer = raw_input(prompt)
 
+print "Are you voting for Hillary or Trump?"
+answer = raw_input(prompt)
+if answer == "Trump":
+    print "Based User"
+elif answer == "Hillary":
+    print "read about her emails detailing her criminal activity on Wikileaks.org"
+else:
+    print "stay home"
+
+
 print """
 Alright, so you said %r about liking me.
 You live in %r.  Not sure where that is.
