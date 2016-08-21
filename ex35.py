@@ -49,6 +49,7 @@ def cthulhu_room():
         dead("Well that was tasty!")
     else:
         cthulhu_room()
+
 def trump_room():
     print "Do you meme Trump into office?"
     next = raw_input("> ")
@@ -79,7 +80,8 @@ def start():
         bear_room()
     elif next == "right":
         cthulhu_room()
-
     elif next == "middle":
         trump_room()
+    else:
+        dead("You stumble around a room until you starve")
 start()
